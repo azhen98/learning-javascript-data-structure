@@ -1,5 +1,7 @@
-export default class Stack {
+import ObjectExtend from "../object-extend"
+export default class Stack  extends ObjectExtend{
   constructor() {
+    super()
     this.count = 0
     this.items = {}
   }
